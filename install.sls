@@ -68,7 +68,7 @@ create_database_and_user:
   mysql_user.present:
     - name: dbuser
     - host: localhost
-    - password: Pa$$w0rd!
+    - password: 
   mysql_grants.present:
     - grant: ALL
     - database: NextCloud_db
